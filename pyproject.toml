@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+version = "2024.02.17"
+name = "langchain_yaml"
+authors = [
+  { name="Di Wu", email="diwu1990@hotmail.com" },
+]
+description = "A package to build LangChain simply from .yaml files"
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.11, <3.12"
+classifiers = [
+    "Programming Language :: Python :: 3.11"
+]
+
+[project.urls]
+Homepage = "https://github.com/UNARY-Lab/langchain_yaml"
+Issues = "https://github.com/UNARY-Lab/langchain_yaml/issues"
+
