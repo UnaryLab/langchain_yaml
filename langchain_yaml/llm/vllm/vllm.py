@@ -1,5 +1,6 @@
-from langchain_wrapper.utils.utils import create_dir
 from langchain_community.llms import VLLM
+
+from langchain_yaml.utils.utils import create_dir
 
 
 def build(llm_cfg):

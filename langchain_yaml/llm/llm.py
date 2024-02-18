@@ -1,8 +1,9 @@
 import os, sys
 import importlib.util
 
-from langchain_wrapper.utils.utils import read_yaml, get_path
 from loguru import logger
+
+from langchain_yaml.utils.utils import read_yaml, get_path
 
 
 def build_llm(llm_yaml: str = None):

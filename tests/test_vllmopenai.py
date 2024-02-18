@@ -4,15 +4,14 @@ sys.path.append(os.getcwd())
 
 from langchain.chains import LLMChain
 from langchain.prompts import PromptTemplate
-from loguru import logger
 
-from langchain_wrapper.llm.llm import build_llm
+from langchain_yaml.llm.llm import build_llm
 
 
 def test_vllmopenai_mistral_7b():
-    logger.info('To run this test, be sure to set up an OpenAI compatible server first')
-    logger.info('For example, <python -m vllm.entrypoints.openai.api_server --model mistralai/Mistral-7B-v0.1 --max-model-len 2048>')
-    logger.info('More can be found here: https://docs.vllm.ai/en/latest/getting_started/quickstart.html')
+    print('To run this test, be sure to set up an OpenAI compatible server first')
+    print('For example, <python -m vllm.entrypoints.openai.api_server --model mistralai/Mistral-7B-v0.1 --max-model-len 2048>')
+    print('More can be found here: https://docs.vllm.ai/en/latest/getting_started/quickstart.html')
     
     llm = build_llm(llm_yaml='./examples/vllm-openai-mistral-7b.yaml')
     template = """Question: {question}

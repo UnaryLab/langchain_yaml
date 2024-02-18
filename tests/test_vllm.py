@@ -5,7 +5,7 @@ sys.path.append(os.getcwd())
 from langchain.chains import LLMChain
 from langchain.prompts import PromptTemplate
 
-from langchain_wrapper.llm.llm import build_llm
+from langchain_yaml.llm.llm import build_llm
 
 
 def test_vllm_llama2_7b():
