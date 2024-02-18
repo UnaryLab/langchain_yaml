@@ -1,0 +1,10 @@
+llm:
+  framework: vllm
+  model_src:
+    hugging_face: TheBloke/Llama-2-7b-Chat-AWQ
+  model_dst:
+    local: /data2/model-pretrained/
+  max_new_tokens: 512
+  vllm_kwargs:
+    quantization: awq
+
