@@ -1,6 +1,6 @@
 # langchain-wrapper
 
-This is a framework to ease the deployment of llms with langchain.
+This is a framework to ease the deployment of llms with langchain. The goal is to use yaml files for configurations.
 
 ## Installation
 1. ```conda create --name lcw python=3.11```
