@@ -4,8 +4,8 @@ sys.path.append(os.getcwd())
 
 from langchain.chains import LLMChain
 
-from langchain_yaml.llm.llm import build_llm
-from langchain_yaml.prompt.prompt import build_prompt
+from langchain_yaml.llm import build_llm
+from langchain_yaml.prompt import build_prompt
 
 
 def test_prompt():
