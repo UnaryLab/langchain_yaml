@@ -1,0 +1,4 @@
+prompt:
+  template: |
+    Question: {question}
+    Answer: 
