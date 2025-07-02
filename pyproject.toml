@@ -17,6 +17,6 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/UNARY-Lab/langchain_yaml"
-Issues = "https://github.com/UNARY-Lab/langchain_yaml/issues"
+Homepage = "https://github.com/UnaryLab/langchain_yaml"
+Issues = "https://github.com/UnaryLab/langchain_yaml/issues"
 
